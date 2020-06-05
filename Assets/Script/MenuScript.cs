@@ -21,6 +21,7 @@ public class MenuScript : MonoBehaviour
     //Fonction : Bouton "Quitter" pour arreter le jeu
     public void QuitBouton()
     {
+        Debug.Log("Quitte le jeu");
         Application.Quit();
     }
 }
