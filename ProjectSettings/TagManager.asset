@@ -42,3 +42,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 2105306141
+    locked: 0
+  - name: Plateform
+    uniqueID: 1442737533
+    locked: 0
+  - name: Collectibles
+    uniqueID: 344321671
+    locked: 0
+  - name: Props
+    uniqueID: 1581263271
+    locked: 0
+  - name: Player
+    uniqueID: 1141799653
+    locked: 0
