@@ -10,6 +10,11 @@ public class MenuScript : MonoBehaviour
       SceneManager.LoadScene("SampleScene");
   }
 
+  public void creditsBouton()
+  {
+    SceneManager.LoadScene("FabCredits");
+  }
+
   public void quitBouton()
   {
       Debug.Log("Ferme le jeu");
