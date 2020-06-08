@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Joyaux
+  - Vide
   layers:
   - Default
   - TransparentFX
