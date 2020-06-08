@@ -203,9 +203,10 @@ GameObject:
   m_Component:
   - component: {fileID: 82007255}
   - component: {fileID: 82007256}
+  - component: {fileID: 82007257}
   m_Layer: 0
   m_Name: collectible (8)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -218,11 +219,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82007254}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.07, y: 9.78, z: 0}
+  m_LocalPosition: {x: -13.088076, y: 9.987323, z: 80.889946}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1391460219}
-  m_RootOrder: 7
+  m_Father: {fileID: 1217960570}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &82007256
 MonoBehaviour:
@@ -266,6 +267,32 @@ MonoBehaviour:
   - {x: 0.21786189, y: 0.33071718, z: 0}
   - {x: -0.19990945, y: 0.3276461, z: 0}
   - {x: -0.39654922, y: 0.105008215, z: 0}
+--- !u!61 &82007257
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82007254}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &187043706
 GameObject:
   m_ObjectHideFlags: 0
@@ -276,9 +303,10 @@ GameObject:
   m_Component:
   - component: {fileID: 187043707}
   - component: {fileID: 187043708}
+  - component: {fileID: 187043709}
   m_Layer: 0
   m_Name: gem-1 (13)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -347,6 +375,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &187043709
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187043706}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9375, y: 0.8125}
+    newSize: {x: 0.9375, y: 0.8125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9375, y: 0.8125}
+  m_EdgeRadius: 0
 --- !u!1 &274404369
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,9 +411,10 @@ GameObject:
   m_Component:
   - component: {fileID: 274404370}
   - component: {fileID: 274404371}
+  - component: {fileID: 274404372}
   m_Layer: 0
   m_Name: collectible (3)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -372,11 +427,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 274404369}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.47, y: 4.92, z: 0}
+  m_LocalPosition: {x: 16.451923, y: 5.127323, z: 80.889946}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1391460219}
-  m_RootOrder: 2
+  m_Father: {fileID: 1217960570}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &274404371
 MonoBehaviour:
@@ -420,6 +475,32 @@ MonoBehaviour:
   - {x: 0.21786189, y: 0.33071718, z: 0}
   - {x: -0.19990945, y: 0.3276461, z: 0}
   - {x: -0.39654922, y: 0.105008215, z: 0}
+--- !u!61 &274404372
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274404369}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &329964603
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,9 +511,10 @@ GameObject:
   m_Component:
   - component: {fileID: 329964604}
   - component: {fileID: 329964605}
+  - component: {fileID: 329964606}
   m_Layer: 0
   m_Name: gem-1 (8)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -501,6 +583,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &329964606
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329964603}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9375, y: 0.8125}
+    newSize: {x: 0.9375, y: 0.8125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9375, y: 0.8125}
+  m_EdgeRadius: 0
 --- !u!1 &351762031
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,9 +619,10 @@ GameObject:
   m_Component:
   - component: {fileID: 351762032}
   - component: {fileID: 351762033}
+  - component: {fileID: 351762034}
   m_Layer: 0
   m_Name: collectible (11)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -526,11 +635,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 351762031}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.17, y: 7.6, z: 0}
+  m_LocalPosition: {x: -1.188077, y: 7.807323, z: 80.889946}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1391460219}
-  m_RootOrder: 10
+  m_Father: {fileID: 1217960570}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &351762033
 MonoBehaviour:
@@ -574,6 +683,32 @@ MonoBehaviour:
   - {x: 0.21786189, y: 0.33071718, z: 0}
   - {x: -0.19990945, y: 0.3276461, z: 0}
   - {x: -0.39654922, y: 0.105008215, z: 0}
+--- !u!61 &351762034
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351762031}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &384593035
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,9 +719,10 @@ GameObject:
   m_Component:
   - component: {fileID: 384593036}
   - component: {fileID: 384593037}
+  - component: {fileID: 384593038}
   m_Layer: 0
   m_Name: collectible (9)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -599,11 +735,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 384593035}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.75, y: 9.78, z: 0}
+  m_LocalPosition: {x: -15.768076, y: 9.987323, z: 80.889946}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1391460219}
-  m_RootOrder: 8
+  m_Father: {fileID: 1217960570}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &384593037
 MonoBehaviour:
@@ -647,6 +783,32 @@ MonoBehaviour:
   - {x: 0.21786189, y: 0.33071718, z: 0}
   - {x: -0.19990945, y: 0.3276461, z: 0}
   - {x: -0.39654922, y: 0.105008215, z: 0}
+--- !u!61 &384593038
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384593035}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &502732330
 GameObject:
   m_ObjectHideFlags: 0
@@ -657,9 +819,10 @@ GameObject:
   m_Component:
   - component: {fileID: 502732331}
   - component: {fileID: 502732332}
+  - component: {fileID: 502732333}
   m_Layer: 0
   m_Name: collectible (4)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -672,11 +835,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 502732330}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.05, y: -7.85, z: 0}
+  m_LocalPosition: {x: 12.031923, y: -7.642677, z: 80.889946}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1391460219}
-  m_RootOrder: 3
+  m_Father: {fileID: 1217960570}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &502732332
 MonoBehaviour:
@@ -720,6 +883,32 @@ MonoBehaviour:
   - {x: 0.21786189, y: 0.33071718, z: 0}
   - {x: -0.19990945, y: 0.3276461, z: 0}
   - {x: -0.39654922, y: 0.105008215, z: 0}
+--- !u!61 &502732333
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502732330}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &518567367
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,9 +919,10 @@ GameObject:
   m_Component:
   - component: {fileID: 518567368}
   - component: {fileID: 518567369}
+  - component: {fileID: 518567370}
   m_Layer: 0
   m_Name: gem-1 (7)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -801,6 +991,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &518567370
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518567367}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9375, y: 0.8125}
+    newSize: {x: 0.9375, y: 0.8125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9375, y: 0.8125}
+  m_EdgeRadius: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1010,9 +1226,10 @@ GameObject:
   m_Component:
   - component: {fileID: 585296344}
   - component: {fileID: 585296345}
+  - component: {fileID: 585296346}
   m_Layer: 0
   m_Name: gem-1
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1081,6 +1298,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &585296346
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585296343}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9375, y: 0.8125}
+    newSize: {x: 0.9375, y: 0.8125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9375, y: 0.8125}
+  m_EdgeRadius: 0
 --- !u!1 &585367983
 GameObject:
   m_ObjectHideFlags: 0
@@ -1091,9 +1334,10 @@ GameObject:
   m_Component:
   - component: {fileID: 585367984}
   - component: {fileID: 585367985}
+  - component: {fileID: 585367986}
   m_Layer: 0
   m_Name: collectible (14)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1106,11 +1350,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 585367983}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.92, y: 11.7, z: 0}
+  m_LocalPosition: {x: 9.901923, y: 11.907323, z: 80.889946}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1391460219}
-  m_RootOrder: 13
+  m_Father: {fileID: 1217960570}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &585367985
 MonoBehaviour:
@@ -1154,6 +1398,32 @@ MonoBehaviour:
   - {x: 0.21786189, y: 0.33071718, z: 0}
   - {x: -0.19990945, y: 0.3276461, z: 0}
   - {x: -0.39654922, y: 0.105008215, z: 0}
+--- !u!61 &585367986
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585367983}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &691569224
 GameObject:
   m_ObjectHideFlags: 0
@@ -1919,9 +2189,10 @@ GameObject:
   m_Component:
   - component: {fileID: 826870064}
   - component: {fileID: 826870065}
+  - component: {fileID: 826870066}
   m_Layer: 0
   m_Name: gem-1 (6)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1990,6 +2261,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &826870066
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826870063}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9375, y: 0.8125}
+    newSize: {x: 0.9375, y: 0.8125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9375, y: 0.8125}
+  m_EdgeRadius: 0
 --- !u!1 &849417296
 GameObject:
   m_ObjectHideFlags: 0
@@ -2000,9 +2297,10 @@ GameObject:
   m_Component:
   - component: {fileID: 849417297}
   - component: {fileID: 849417298}
+  - component: {fileID: 849417299}
   m_Layer: 0
   m_Name: gem-1 (12)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2071,6 +2369,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &849417299
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849417296}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9375, y: 0.8125}
+    newSize: {x: 0.9375, y: 0.8125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9375, y: 0.8125}
+  m_EdgeRadius: 0
 --- !u!1 &951519511
 GameObject:
   m_ObjectHideFlags: 0
@@ -2101,7 +2425,6 @@ Transform:
   - {fileID: 1391928042}
   - {fileID: 779333833}
   - {fileID: 26483256}
-  - {fileID: 1391460219}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2115,9 +2438,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1090723873}
   - component: {fileID: 1090723874}
+  - component: {fileID: 1090723875}
   m_Layer: 0
   m_Name: gem-1 (5)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2186,6 +2510,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1090723875
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090723872}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9375, y: 0.8125}
+    newSize: {x: 0.9375, y: 0.8125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9375, y: 0.8125}
+  m_EdgeRadius: 0
 --- !u!1 &1130337032
 GameObject:
   m_ObjectHideFlags: 0
@@ -2196,9 +2546,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1130337033}
   - component: {fileID: 1130337034}
+  - component: {fileID: 1130337035}
   m_Layer: 0
   m_Name: gem-1 (3)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2267,6 +2618,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1130337035
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130337032}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9375, y: 0.8125}
+    newSize: {x: 0.9375, y: 0.8125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9375, y: 0.8125}
+  m_EdgeRadius: 0
 --- !u!1 &1178269361
 GameObject:
   m_ObjectHideFlags: 0
@@ -2277,9 +2654,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1178269362}
   - component: {fileID: 1178269363}
+  - component: {fileID: 1178269364}
   m_Layer: 0
   m_Name: collectible (6)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2292,11 +2670,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1178269361}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.42, y: -3.74, z: 0}
+  m_LocalPosition: {x: 1.561923, y: -3.532677, z: 80.889946}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1391460219}
-  m_RootOrder: 5
+  m_Father: {fileID: 1217960570}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1178269363
 MonoBehaviour:
@@ -2340,6 +2718,32 @@ MonoBehaviour:
   - {x: 0.21786189, y: 0.33071718, z: 0}
   - {x: -0.19990945, y: 0.3276461, z: 0}
   - {x: -0.39654922, y: 0.105008215, z: 0}
+--- !u!61 &1178269364
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178269361}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1179433365
 GameObject:
   m_ObjectHideFlags: 0
@@ -2472,6 +2876,51 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1217960569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1217960570}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1217960570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217960569}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.0249228, y: -0.047323182, z: -80.889946}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 585367984}
+  - {fileID: 1430817795}
+  - {fileID: 1859285081}
+  - {fileID: 351762032}
+  - {fileID: 1252554454}
+  - {fileID: 384593036}
+  - {fileID: 82007255}
+  - {fileID: 1905758292}
+  - {fileID: 1178269362}
+  - {fileID: 1589562373}
+  - {fileID: 502732331}
+  - {fileID: 274404370}
+  - {fileID: 1981898945}
+  - {fileID: 1877077599}
+  - {fileID: 1391460219}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1252554453
 GameObject:
   m_ObjectHideFlags: 0
@@ -2482,9 +2931,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1252554454}
   - component: {fileID: 1252554455}
+  - component: {fileID: 1252554456}
   m_Layer: 0
   m_Name: collectible (10)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2497,11 +2947,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1252554453}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.85, y: 7.6, z: 0}
+  m_LocalPosition: {x: -2.8680768, y: 7.807323, z: 80.889946}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1391460219}
-  m_RootOrder: 9
+  m_Father: {fileID: 1217960570}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1252554455
 MonoBehaviour:
@@ -2545,6 +2995,32 @@ MonoBehaviour:
   - {x: 0.21786189, y: 0.33071718, z: 0}
   - {x: -0.19990945, y: 0.3276461, z: 0}
   - {x: -0.39654922, y: 0.105008215, z: 0}
+--- !u!61 &1252554456
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252554453}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1333028586
 GameObject:
   m_ObjectHideFlags: 0
@@ -5254,9 +5730,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1349926146}
   - component: {fileID: 1349926147}
+  - component: {fileID: 1349926148}
   m_Layer: 0
   m_Name: gem-1 (14)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5325,6 +5802,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1349926148
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349926145}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9375, y: 0.8125}
+    newSize: {x: 0.9375, y: 0.8125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9375, y: 0.8125}
+  m_EdgeRadius: 0
 --- !u!1 &1364762382 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4013472547873155309, guid: 3a7185a9bf4d2f447ae083113c79b6c4,
@@ -5350,6 +5853,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1364762390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364762382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90bfdc5ef5f31ee46bedab7e0c9b9794, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Score: {fileID: 0}
 --- !u!1 &1391460218
 GameObject:
   m_ObjectHideFlags: 0
@@ -5360,9 +5876,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1391460219}
   - component: {fileID: 1391460220}
+  - component: {fileID: 1391460221}
   m_Layer: 0
   m_Name: collectible
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5375,25 +5892,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1391460218}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.957, y: 0.16, z: 0}
+  m_LocalPosition: {x: 4.981923, y: 0.20732318, z: 80.889946}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1877077599}
-  - {fileID: 1981898945}
-  - {fileID: 274404370}
-  - {fileID: 502732331}
-  - {fileID: 1589562373}
-  - {fileID: 1178269362}
-  - {fileID: 1905758292}
-  - {fileID: 82007255}
-  - {fileID: 384593036}
-  - {fileID: 1252554454}
-  - {fileID: 351762032}
-  - {fileID: 1859285081}
-  - {fileID: 1430817795}
-  - {fileID: 585367984}
-  m_Father: {fileID: 951519512}
-  m_RootOrder: 3
+  m_Children: []
+  m_Father: {fileID: 1217960570}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1391460220
 MonoBehaviour:
@@ -5437,6 +5940,32 @@ MonoBehaviour:
   - {x: 0.21786189, y: 0.33071718, z: 0}
   - {x: -0.19990945, y: 0.3276461, z: 0}
   - {x: -0.39654922, y: 0.105008215, z: 0}
+--- !u!61 &1391460221
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391460218}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1391928041
 GameObject:
   m_ObjectHideFlags: 0
@@ -5519,9 +6048,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1430817795}
   - component: {fileID: 1430817796}
+  - component: {fileID: 1430817797}
   m_Layer: 0
   m_Name: collectible (13)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5534,11 +6064,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1430817794}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.11, y: 11.7, z: 0}
+  m_LocalPosition: {x: 8.091923, y: 11.907323, z: 80.889946}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1391460219}
-  m_RootOrder: 12
+  m_Father: {fileID: 1217960570}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1430817796
 MonoBehaviour:
@@ -5582,6 +6112,32 @@ MonoBehaviour:
   - {x: 0.21786189, y: 0.33071718, z: 0}
   - {x: -0.19990945, y: 0.3276461, z: 0}
   - {x: -0.39654922, y: 0.105008215, z: 0}
+--- !u!61 &1430817797
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430817794}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1495844966
 GameObject:
   m_ObjectHideFlags: 0
@@ -5757,9 +6313,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1589562373}
   - component: {fileID: 1589562374}
+  - component: {fileID: 1589562375}
   m_Layer: 0
   m_Name: collectible (5)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5772,11 +6329,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589562372}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.93, y: -7.85, z: 0}
+  m_LocalPosition: {x: 9.911922, y: -7.642677, z: 80.889946}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1391460219}
-  m_RootOrder: 4
+  m_Father: {fileID: 1217960570}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1589562374
 MonoBehaviour:
@@ -5820,6 +6377,32 @@ MonoBehaviour:
   - {x: 0.21786189, y: 0.33071718, z: 0}
   - {x: -0.19990945, y: 0.3276461, z: 0}
   - {x: -0.39654922, y: 0.105008215, z: 0}
+--- !u!61 &1589562375
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589562372}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1703624664
 GameObject:
   m_ObjectHideFlags: 0
@@ -5830,9 +6413,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1703624665}
   - component: {fileID: 1703624666}
+  - component: {fileID: 1703624667}
   m_Layer: 0
   m_Name: gem-1 (9)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5901,6 +6485,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1703624667
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703624664}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9375, y: 0.8125}
+    newSize: {x: 0.9375, y: 0.8125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9375, y: 0.8125}
+  m_EdgeRadius: 0
 --- !u!1 &1790611151
 GameObject:
   m_ObjectHideFlags: 0
@@ -5911,9 +6521,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1790611152}
   - component: {fileID: 1790611153}
+  - component: {fileID: 1790611154}
   m_Layer: 0
   m_Name: gem-1 (10)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5982,6 +6593,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1790611154
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790611151}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9375, y: 0.8125}
+    newSize: {x: 0.9375, y: 0.8125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9375, y: 0.8125}
+  m_EdgeRadius: 0
 --- !u!1 &1859285080
 GameObject:
   m_ObjectHideFlags: 0
@@ -5992,9 +6629,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1859285081}
   - component: {fileID: 1859285082}
+  - component: {fileID: 1859285083}
   m_Layer: 0
   m_Name: collectible (12)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6007,11 +6645,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859285080}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.31, y: 11.7, z: 0}
+  m_LocalPosition: {x: 3.6719232, y: 11.907323, z: 80.889946}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1391460219}
-  m_RootOrder: 11
+  m_Father: {fileID: 1217960570}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1859285082
 MonoBehaviour:
@@ -6055,6 +6693,32 @@ MonoBehaviour:
   - {x: 0.21786189, y: 0.33071718, z: 0}
   - {x: -0.19990945, y: 0.3276461, z: 0}
   - {x: -0.39654922, y: 0.105008215, z: 0}
+--- !u!61 &1859285083
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859285080}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1877077598
 GameObject:
   m_ObjectHideFlags: 0
@@ -6065,9 +6729,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1877077599}
   - component: {fileID: 1877077600}
+  - component: {fileID: 1877077601}
   m_Layer: 0
   m_Name: collectible (1)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6080,11 +6745,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1877077598}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.983, y: 4.92, z: 0}
+  m_LocalPosition: {x: 11.964924, y: 5.127323, z: 80.889946}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1391460219}
-  m_RootOrder: 0
+  m_Father: {fileID: 1217960570}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1877077600
 MonoBehaviour:
@@ -6128,6 +6793,32 @@ MonoBehaviour:
   - {x: 0.21786189, y: 0.33071718, z: 0}
   - {x: -0.19990945, y: 0.3276461, z: 0}
   - {x: -0.39654922, y: 0.105008215, z: 0}
+--- !u!61 &1877077601
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877077598}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1905371170
 GameObject:
   m_ObjectHideFlags: 0
@@ -6138,9 +6829,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1905371171}
   - component: {fileID: 1905371172}
+  - component: {fileID: 1905371173}
   m_Layer: 0
   m_Name: gem-1 (2)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6209,6 +6901,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1905371173
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905371170}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9375, y: 0.8125}
+    newSize: {x: 0.9375, y: 0.8125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9375, y: 0.8125}
+  m_EdgeRadius: 0
 --- !u!1 &1905758291
 GameObject:
   m_ObjectHideFlags: 0
@@ -6219,9 +6937,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1905758292}
   - component: {fileID: 1905758293}
+  - component: {fileID: 1905758294}
   m_Layer: 0
   m_Name: collectible (7)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6234,11 +6953,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1905758291}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.57, y: -4.61, z: 0}
+  m_LocalPosition: {x: -12.588076, y: -4.402677, z: 80.889946}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1391460219}
-  m_RootOrder: 6
+  m_Father: {fileID: 1217960570}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1905758293
 MonoBehaviour:
@@ -6282,6 +7001,32 @@ MonoBehaviour:
   - {x: 0.21786189, y: 0.33071718, z: 0}
   - {x: -0.19990945, y: 0.3276461, z: 0}
   - {x: -0.39654922, y: 0.105008215, z: 0}
+--- !u!61 &1905758294
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905758291}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1955667924
 GameObject:
   m_ObjectHideFlags: 0
@@ -6373,9 +7118,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1981898945}
   - component: {fileID: 1981898946}
+  - component: {fileID: 1981898947}
   m_Layer: 0
   m_Name: collectible (2)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6388,11 +7134,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981898944}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.23, y: 4.92, z: 0}
+  m_LocalPosition: {x: 14.211924, y: 5.127323, z: 80.889946}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1391460219}
-  m_RootOrder: 1
+  m_Father: {fileID: 1217960570}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1981898946
 MonoBehaviour:
@@ -6436,6 +7182,32 @@ MonoBehaviour:
   - {x: 0.21786189, y: 0.33071718, z: 0}
   - {x: -0.19990945, y: 0.3276461, z: 0}
   - {x: -0.39654922, y: 0.105008215, z: 0}
+--- !u!61 &1981898947
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981898944}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1985197715
 GameObject:
   m_ObjectHideFlags: 0
@@ -6446,9 +7218,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1985197716}
   - component: {fileID: 1985197717}
+  - component: {fileID: 1985197718}
   m_Layer: 0
   m_Name: gem-1 (11)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6517,6 +7290,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1985197718
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985197715}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9375, y: 0.8125}
+    newSize: {x: 0.9375, y: 0.8125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9375, y: 0.8125}
+  m_EdgeRadius: 0
 --- !u!1 &1991725879
 GameObject:
   m_ObjectHideFlags: 0
@@ -6527,9 +7326,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1991725880}
   - component: {fileID: 1991725881}
+  - component: {fileID: 1991725882}
   m_Layer: 0
   m_Name: gem-1 (4)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6598,6 +7398,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1991725882
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991725879}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9375, y: 0.8125}
+    newSize: {x: 0.9375, y: 0.8125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9375, y: 0.8125}
+  m_EdgeRadius: 0
 --- !u!1 &2018107063
 GameObject:
   m_ObjectHideFlags: 0
@@ -6608,9 +7434,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2018107064}
   - component: {fileID: 2018107065}
+  - component: {fileID: 2018107066}
   m_Layer: 0
   m_Name: gem-1 (1)
-  m_TagString: Untagged
+  m_TagString: Joyaux
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6679,3 +7506,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2018107066
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018107063}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9375, y: 0.8125}
+    newSize: {x: 0.9375, y: 0.8125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9375, y: 0.8125}
+  m_EdgeRadius: 0
