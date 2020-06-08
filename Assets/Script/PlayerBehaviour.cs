@@ -15,6 +15,9 @@ public class PlayerBehaviour : MonoBehaviour
     public float JumpForce;
     private bool IsOnGround = false;
 
+    private Animator MyAnim;
+    private SpriteRenderer MySprite;
+
     private void OnEnable()
     {
         //on instancie l'input system créé dans Unity
@@ -35,6 +38,9 @@ public class PlayerBehaviour : MonoBehaviour
     {
         //on récupère le Rigidbody2D du Player pour pouvoir agir dessus
         myRB = GetComponent<Rigidbody2D>();
+
+        MyAnim = GetComponent<Animator>();
+        MySprite = GetComponent<SpriteRenderer>();
     }
 
     private void FixedUpdate()
@@ -47,6 +53,9 @@ public class PlayerBehaviour : MonoBehaviour
         {
             myRB.AddForce(playerDirection * speed);
         }
+
+        var isRunning = direction.x != 0;
+        MyAnim.SetBool("IsRunning", isRunning);
     }
     // Update is called once per frame
     void Update()
