@@ -54,8 +54,25 @@ public class PlayerBehaviour : MonoBehaviour
             myRB.AddForce(playerDirection * speed);
         }
 
-        var isRunning = direction.x != 0;
+        var isRunning = playerDirection.x != 0;
         MyAnim.SetBool("IsRunning", isRunning);
+
+        if(direction.x < 0)
+        {
+            MySprite.flipX = true;
+        }
+        else if(direction.x > 0) 
+        {
+            MySprite.flipX = false;
+        }
+
+        var IsAscending = !IsOnGround && myRB.velocity.y > 0;
+        MyAnim.SetBool("IsJumping", IsAscending);
+        var IsDescending = !IsOnGround && myRB.velocity.y > 0;
+        MyAnim.SetBool("IsFalling", IsDescending);
+        MyAnim.SetBool("IsGrounded", IsOnGround);
+        
+        
     }
     // Update is called once per frame
     void Update()
