@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class PlayerBehaviour : MonoBehaviour
 {
-    public UnityEvent onDeath;
+    //public UnityEvent onDeath;
 
     [SerializeField] private GameObject gameOverCanvas;
     [SerializeField] float speed;
@@ -126,10 +127,11 @@ public class PlayerBehaviour : MonoBehaviour
     public void GameOver()
     {
         // Lancement de l’event onDeath
-        onDeath.Invoke();
+        //onDeath.Invoke();
         // Instantiation de l’écran de Game Over
-        Instantiate(gameOverCanvas);
+        //Instantiate(gameOverCanvas);
         // Destruction de l’objet sur lequel le script est placé
         Destroy(gameObject);
+        SceneManager.LoadScene("FabMenu");
     }
 }
