@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Events;
 
 public class PlayerBehaviour : MonoBehaviour
 {
+    public UnityEvent onDeath;
+
+    [SerializeField] private GameObject gameOverCanvas;
     [SerializeField] float speed;
     [SerializeField] float maxSpeed;
 
@@ -110,7 +114,22 @@ public class PlayerBehaviour : MonoBehaviour
         {
             IsOnGround = true;
         }
+
+        if (other.gameObject.CompareTag("Vide"))
+        {
+            GameOver();
+            Debug.Log("Bravo tu creves !");
+        }
         
     }
 
+    public void GameOver()
+    {
+        // Lancement de l’event onDeath
+        onDeath.Invoke();
+        // Instantiation de l’écran de Game Over
+        Instantiate(gameOverCanvas);
+        // Destruction de l’objet sur lequel le script est placé
+        Destroy(gameObject);
+    }
 }
