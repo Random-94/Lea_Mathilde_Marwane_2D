@@ -11,7 +11,7 @@ public class Notre_Scene_Loading : MonoBehaviour
 
     public void LoadScene1()
     {
-        Debug.Log("Coucou");
+        //Debug.Log("Coucou");
 
         StartCoroutine(Load());
     }
@@ -19,29 +19,28 @@ public class Notre_Scene_Loading : MonoBehaviour
     private IEnumerator Load()
     {
         var Loading_ScreenInstance = Instantiate(Loading_Screen);
-        DontDestroyOnLoad(Loading_ScreenInstance); 
-        var loading = SceneManager.LoadSceneAsync(Scene_ToLoadScene); 
+        DontDestroyOnLoad(Loading_ScreenInstance);  
         var loadingAnimator = Loading_ScreenInstance.GetComponent<Animator>();
         var animationTime = loadingAnimator.GetCurrentAnimatorStateInfo(0).length;
-
-
+        var loading = SceneManager.LoadSceneAsync(Scene_ToLoadScene);
+        
         loading.allowSceneActivation = false; 
 
-        while (loading.progress < 0.9f) 
+        while (!loading.isDone) 
         {
+            if(loading.progress <= 0.9f)
+            {
+                loading.allowSceneActivation = true;
+                loadingAnimator.SetTrigger("EndLoading");
+            }
+
             yield return new WaitForSeconds(animationTime); 
         }
 
-        loading.allowSceneActivation = true; 
-        loadingAnimator.SetTrigger("EndLoading");
        
-
     }
 
-    public void DeadLoadScene1()
-    {
 
-    }
 
 
     // Start is called before the first frame update
