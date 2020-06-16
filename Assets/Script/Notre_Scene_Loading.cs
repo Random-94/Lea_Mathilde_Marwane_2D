@@ -29,14 +29,19 @@ public class Notre_Scene_Loading : MonoBehaviour
 
         while (loading.progress < 0.9f) 
         {
-            yield return new WaitForSeconds(2); 
+            yield return new WaitForSeconds(animationTime); 
         }
 
         loading.allowSceneActivation = true; 
         loadingAnimator.SetTrigger("EndLoading");
        
+
     }
 
+    public void DeadLoadScene1()
+    {
+
+    }
 
 
     // Start is called before the first frame update

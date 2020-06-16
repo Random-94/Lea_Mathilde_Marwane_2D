@@ -13,6 +13,8 @@ public class PlayerBehaviour : MonoBehaviour
     [SerializeField] float speed;
     [SerializeField] float maxSpeed;
 
+    
+
     private Rigidbody2D myRB;
 
     private Vector2 direction;
@@ -133,5 +135,6 @@ public class PlayerBehaviour : MonoBehaviour
         // Destruction de l’objet sur lequel le script est placé
         Destroy(gameObject);
         SceneManager.LoadScene("FabMenu");
+        
     }
 }
