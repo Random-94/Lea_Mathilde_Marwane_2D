@@ -160,6 +160,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 084e62a536979e346b16e54435e003ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverCanvas: {fileID: 0}
   speed: 20
   maxSpeed: 30
+  Loading_Screen: {fileID: 696431305182654201, guid: 2c04bdbf974001046ac6ab4f9dbb0973,
+    type: 3}
   JumpForce: 6
