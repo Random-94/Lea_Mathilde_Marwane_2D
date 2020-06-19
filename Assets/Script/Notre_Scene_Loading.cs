@@ -28,7 +28,7 @@ public class Notre_Scene_Loading : MonoBehaviour
 
         while (!loading.isDone) 
         {
-            if(loading.progress <= 0.9f)
+            if(loading.progress >= 0.9f)
             {
                 loading.allowSceneActivation = true;
                 loadingAnimator.SetTrigger("EndLoading");
