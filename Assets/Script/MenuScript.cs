@@ -1,16 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement; // on rajoute le namespace scenemanagement pour gérer le changement de scene
 
 public class MenuScript : MonoBehaviour
 {
   //Chaque fonction représente un bouton du Menu dans la hierarchy des gameobjets
-  //(Design et disposition du code)
+  
 
 
   //Fonction pour le bouton "jouer"
-  public void playBouton()
+  public void playBouton() 
   {
       SceneManager.LoadScene("SampleScene");//Charge la scène du jeu
   }
