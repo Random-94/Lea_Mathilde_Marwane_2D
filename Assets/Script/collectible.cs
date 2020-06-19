@@ -2,24 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class collectible : MonoBehaviour
 {
-    //[SerializeField] private Text Score;
+    [SerializeField] private TextMeshProUGUI Score;
     // on créé une variable qui apparait dans l'inspector pour afficher le score
-   // private int ScoreValue;
+    private int ScoreValue;
     // autre variable "valeur du score" nombre entier "int"
 
 
     void Start()
     {
-        //ScoreValue = 0; //donne une valeur à la variable "valeur du score"
+        ScoreValue = 0; //donne une valeur à la variable "valeur du score"
     }
 
 
     void Update()
     {
-        //Score.text = "Score : " + ScoreValue;
+        Score.text = "Score : " + ScoreValue;
         // le compteur affiche "score : + la valeur de ScoreValue
 
     }
@@ -38,7 +39,7 @@ public class collectible : MonoBehaviour
         {
 
             Destroy(other.gameObject);
-            //ScoreValue += 1;
+            ScoreValue += 1;
             /* on peut ecrire aussi : 
             scoreValue ++;
             ScoreValue = ScoreValue +1;

@@ -1,31 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.Events;
+using UnityEngine.InputSystem; // on ajoute le namespace des deplacement du personnage
+using UnityEngine.Events; 
 using UnityEngine.SceneManagement;
 
 public class PlayerBehaviour : MonoBehaviour
 {
     //public UnityEvent onDeath;
 
-    [SerializeField] private GameObject gameOverCanvas;
-    [SerializeField] float speed;
-    [SerializeField] float maxSpeed;
+    [SerializeField] private GameObject gameOverCanvas;  // on cree une variable modifiable dans l'inspector
+    [SerializeField] float speed;// on cree une variable modifiable dans l'inspector
+    [SerializeField] float maxSpeed;// on cree une variable modifiable dans l'inspector
 
-    
 
-    private Rigidbody2D myRB;
 
-    private Vector2 direction;
+    private Rigidbody2D myRB; // on cree une variable pour modifier le rigidbody du personnage
 
-    public float JumpForce;
-    private bool IsOnGround = false;
+    private Vector2 direction; // on cree une variable pour la direction du personnage
 
-    private Animator MyAnim;
-    private SpriteRenderer MySprite;
+    public float JumpForce; // on cree une variable pour modifier la force du saut du personnage
+    private bool IsOnGround = false; // on cree une variable booleenne qu'on déclare "faux" 
 
-    private void OnEnable()
+    private Animator MyAnim; // on cree une variable pour l'animation du personnage
+    private SpriteRenderer MySprite; // on cree une variable pour modifier le sprite qui va etre affiché pendant les animations
+
+    private void OnEnable() // 
     {
         //on instancie l'input system créé dans Unity
         var Controls = new PlayerControler();
@@ -46,8 +46,8 @@ public class PlayerBehaviour : MonoBehaviour
         //on récupère le Rigidbody2D du Player pour pouvoir agir dessus
         myRB = GetComponent<Rigidbody2D>();
 
-        MyAnim = GetComponent<Animator>();
-        MySprite = GetComponent<SpriteRenderer>();
+        MyAnim = GetComponent<Animator>(); // on recupère le composant animator
+        MySprite = GetComponent<SpriteRenderer>(); // on recupère le composant sprite renderer
     }
 
     private void FixedUpdate()
@@ -61,9 +61,11 @@ public class PlayerBehaviour : MonoBehaviour
             myRB.AddForce(playerDirection * speed);
         }
 
-        var isRunning = playerDirection.x != 0;
+        // on lance l'animation isrunning dès que le personnage est en mouvement
+        var isRunning = playerDirection.x != 0; 
         MyAnim.SetBool("IsRunning", isRunning);
 
+        //on change l'orientatino du sprite en fonction de sa direction
         if(direction.x < 0)
         {
             MySprite.flipX = true;
@@ -73,6 +75,7 @@ public class PlayerBehaviour : MonoBehaviour
             MySprite.flipX = false;
         }
 
+        //on lance l'animation isjumping et isfalling dès que le personnage est en mouvement sur l'axe y
         var IsAscending = !IsOnGround && myRB.velocity.y > 0;
         MyAnim.SetBool("IsJumping", IsAscending);
         var IsDescending = !IsOnGround && myRB.velocity.y > 0;
@@ -118,6 +121,7 @@ public class PlayerBehaviour : MonoBehaviour
             IsOnGround = true;
         }
 
+        //si le Player collisionne avec un GameObject qui a le tag "vide" on lance la fonction gameover
         if (other.gameObject.CompareTag("Vide"))
         {
             GameOver();
