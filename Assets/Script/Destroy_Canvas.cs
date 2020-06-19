@@ -9,5 +9,4 @@ public class Destroy_Canvas : MonoBehaviour
     {
         Destroy(gameObject);
     }
-
 }
